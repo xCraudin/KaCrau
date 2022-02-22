@@ -1,0 +1,257 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+   
+>>> Comprovando que os resultados foram obtidos corretamente.
+
+    >> 1.
+    
+Digite a dimensao da matriz quadrada: 3
+
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz digitada:
+
+1 2 3
+4 5 6
+7 8 9
+
+Linha com o menor valor: 1 2 3
+
+
+  >> 2.
+
+Digite a nota 1: 7.5
+Digite a nota 2: 5.5
+Digite a nota 3: 9.8
+
+Nota dos exercícios: 4
+
+"C"
+
+  
+  >> 3.
+  
+Digite o numero maximo:
+
+O numero deve ser impar
+
+7
+
+1 2 3 4 5 6 7 8 9
+  2 3 4 5 6 7 8
+    3 4 5 6 7
+      4 5 6
+        5
+        
+  
+  >> 4.
+  
+Digite o primeiro nome: Claudionor
+Digite o segundo nome: Gabriel
+
+A Ordem alfabetica seria: 
+Claudionor
+Gabriel  
+
+
+  >> 5.
+  
+Digite a dimensao da matriz quadrada: 3
+
+Digite os valores da matriz:
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz digitada:
+1 2 3
+4 5 6
+7 8 9
+
+Por quanto deseja multiplicar?
+3
+Deseja multiplar linha ou coluna? Linha (1) Coluna (2):
+1
+Qual linha deseja multiplicar?
+2
+
+A matriz final ficou:
+3 6 9
+4 5 6
+7 8 9
+Deseja continuar? Sim(1) Nao(0):
+0
+
+  
+  >> 6.
+
+Digite a dimensao da matriz quadrada:  3
+Digite os valores da matriz:
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz digitada:
+1 2 3
+4 5 6
+7 8 9
+
+A matriz transposta seria:
+
+1 4 7
+2 5 8
+3 6 9
+
+
+  >> 7.
+
+Digite seu nome: Claudionor
+Digite a idade: 21
+Digite o peso: 63
+Digite a altura: 1,73
+
+Digite seu nome: Gabriel 
+Digite a idade: 19
+Digite o peso: 61
+Digite a altura: 1,72
+
+Digite seu nome: Andre
+Digite a idade: 19
+Digite o peso: 53
+Digite a altura: 1,72
+
+
+Nome: Claudionor 
+Idade: 21
+Peso: 63
+Altura: 1,73
+
+Nome: Gabriel 
+Idade: 19
+Peso: 61
+Altura: 1,72
+
+Nome: Andre
+Idade: 19
+Peso: 53
+Altura: 1,72
+
+
+  >> 8.
+  
+Digite a dimensao da matriz quadrada:  3
+Digite os valores da matriz:
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz original digitada:
+1 2 3
+4 5 6
+7 8 9
+
+A matriz transposta digitada:
+
+1 4 7
+2 5 8
+3 6 9
+
+
+  >> 9.
+  
+Digite a dimensao da matriz quadrada:  3
+Digite os valores da matriz:
+Digite os valores para a 1 linha: -1 -2 3
+Digite os valores para a 2 linha: 4 5 -6
+Digite os valores para a 3 linha: 7 -8 9
+
+A matriz original digitada:
+-1 -2 3
+4 5 -6
+7 -8 9
+
+A matriz em modulo digitada:
+1 2 3
+4 5 6
+7 8 9
+
+  >> 10.
+  
+Digite a dimensao da matriz quadrada:  3
+Digite os valores da matriz:
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz original digitada:
+1 2 3
+4 5 6
+7 8 9
+
+A matriz final ficou:
+Por quanto deseja multiplicar? 3 
+Deseja multiplar linha ou coluna? Linha (1) Coluna (2): 2
+Qual coluna deseja multiplicar? 0
+
+3 2 3
+12 5 6
+21 8 9
+
+
+  >> 11.
+  
+Digite a dimensao da matriz quadrada:  3
+Digite os valores da matriz:
+Digite os valores para a 1 linha: 1 2 3
+Digite os valores para a 2 linha: 4 5 6
+Digite os valores para a 3 linha: 7 8 9
+
+A matriz original digitada:
+1   2   3
+4   5   6
+7   8   9
+
+As somas das linhas ficam:
+1   2   3
+5   7   9
+7   8   9
+
+As multiplicacoes das linhas ficam:
+1   2   3
+5   14    27
+7   8   9
+
+  >> 12.
+  
+Digite uma palavra: banana
+Palavra digitada: banana
+Qual a letra? a
+
+A letra procurada esta presente na posicao 2
+A letra procurada esta presente na posicao 4
+A letra procurada esta presente na posicao 6
+
+// (colocamos posicao + 1 para o código printar a posicao desconsiderando a posicao 0 do vetor)
+
+
+  >> 13.
+  
+Digite uma palavra: salada
+Digite a posicao do caracter: 2
+saada
+
+  
+  >> 14.
+  
+Digite uma palavra: bataa
+Qual letra ? t
+Digite a posicao do caracter: 4
+batata
+
