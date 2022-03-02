@@ -1,0 +1,26 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+   
+>>> Comprovando que os resultados foram obtidos corretamente.
+
+Primeiramente declaramos três variáveis inteiras, int, i, j.
+declaramos o pid.
+
+Assim, pegamos a entrada digitado pelo usuários, que é guardada na variável num.
+atribuimos o valor de num à "j" e finalmente entramos em um loop, no qual o "i" começa em 1 e "j" deve ser maior que 1, j diminuí por loop.
+no começo do loop, realizamos o fork para criar um processo filho para nosso pid.
+
+se o pid for menor que zero, o comando não funciona e retorna como erro.
+
+se o pid for diferente de zero, o programa fará com que o pid espere e sairá do loop.
+
+se o pid for igual a zero, o programa printa o pid do filho, printa o pid do pai, atribui o valor de "i" a multiplicação entre os valores de "i" e "j".
+Essa multiplicação representa a multiplicação dos fatoriais, e será retornada, quando o j for reduzido até se igualar a 2.
+
+
+
