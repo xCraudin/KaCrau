@@ -28,7 +28,7 @@ int main()
     }
 
     else{  
-    	printf("\nSUN: my id is %d  \n", getpid());
+    	printf("\nSON: my id is %d  \n", getpid());
     	printf("PARENT: my parentid is %d \n", getppid()); 
     	i=i*j;
      	if (j == 2)
