@@ -1,0 +1,28 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+   
+>>> Comprovando que os resultados foram obtidos corretamente.
+
+    > Primeiramente fizemos uma struct que suporta 3 variáveis diferentes:
+    
+        >O nome que é armazenado num vetor de chars de tamanho até 50,
+        >A idade que é armazenada como valor inteiro
+        >Por fim a altura que é armazenada como valor float
+
+    > Criamos 6 funções para implementação deste exercício:
+    
+        > imprimeVetor;
+            > Inicia um loop para que será utilizado para ler todos os dados de todas as pessoas.
+            > * adendo: o vetor Povo[] é utilizado para armazenar os dados da Struct em um vetor*
+            > atribui o valor ao vetor de acordo 
+        > leDadosUmaPessoa;
+        > fechaArquivo;
+        > compar;
+        > ordenaVetor;
+        > abreArquivoEntrada
+        
