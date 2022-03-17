@@ -10,19 +10,54 @@
 
     > Primeiramente fizemos uma struct que suporta 3 variáveis diferentes:
     
-        >O nome que é armazenado num vetor de chars de tamanho até 50,
-        >A idade que é armazenada como valor inteiro
-        >Por fim a altura que é armazenada como valor float
+        > O nome que é armazenado num vetor de chars de tamanho até 50,
+        > A idade que é armazenada como valor inteiro
+        > Por fim a altura que é armazenada como valor float
 
     > Criamos 6 funções para implementação deste exercício:
     
         > imprimeVetor;
             > Inicia um loop para que será utilizado para ler todos os dados de todas as pessoas.
             > * adendo: o vetor Povo[] é utilizado para armazenar os dados da Struct em um vetor*
-            > atribui o valor ao vetor de acordo 
+            > Printa as informações de nome, idade e altura de uma posição do vetor 'j' e volta para o loop até que j atinja o valor de i.
         > leDadosUmaPessoa;
+            > A função leva como parâmetro um ponteiro para o arquivo que ele deve ler.
+            > Neste caso, utilizamos o comando fscanf para ler entradas formatadas em um arquivo de texto, no caso, o "exelab.txt".
+            > Durante a leitura do arquivo ele também atribui os valores lidos às variáveis da struct.
         > fechaArquivo;
+            > Chama uma função que terminar a leitura do arquivo.
         > compar;
+            > A função compara os valores de altura entre 2 pessoas
+            > Caso os valores sejam iguais a função retorna 0
+            > Caso a variável 1 seja menor que a variável 2 a função retorna -1
+            > Caso a variável 1 seja maior que a variável 2 a função retorna 1
         > ordenaVetor;
+            > Utilizando a função qsort, que recebe um ponteiro para o primeiro o elemento do vetor, o número de elementos no vetor,
+            > Tamanho de cada elemento do array e a função compar(função acima)
         > abreArquivoEntrada
+            > Função que abre um arquivo com o nome inserido, no caso "exelab.txt"
+            
+        > Main
+            > Na main utilizamos as funções acima para abrir um arquivo determinado e ler os dados contidos nele, um por um (pessoa por pessoa).
+            > Assim que terminar de ler todas pessoas no arquivo ele fechará o arquivo e chamará a função que ordena em ordem crescente pelo tamanho da pessoa.
+            > Por fim, ele printará o vetor de pessoas.
+            
+>>> Saída
+        Arquivo criado com sucesso!
+        
+        Nome: Joana
+        Idade: 40
+        Altura: 1.60
+        
+        Nome: Maria
+        Idade: 15
+        Altura: 1.60
+        
+        Nome: Abel
+        Idade:23
+        Altura: 1.70
+        
+        Nome: Joao
+        Idade: 21
+        Altura: 1.80
         
