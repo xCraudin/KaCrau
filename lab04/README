@@ -1,0 +1,29 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    >  $ gcc lab04.c -o lab04
+    
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+    > $ ./lab04
+    
+>>> Comprovando que os resultados foram obtidos corretamente.
+
+  >> primeiramente criaremos um espaço de memória compartilhada para ambos os processos pai e filho acessarem a variável.
+    > por meio do shmget, definimos uma área e seu tamanho.
+    > utilizamos um if para garantir que o id não é negativo para então prosseguir no código...
+    
+  >> em seguida ligamos esse id à memória criada anteriormente pelo comando shmat
+    > também ligamos definimos um ponteiro shrd com o valor inicial(no caso valor = 1)
+    > criamos um processo filho(por meio do fork)
+    
+  >> a partir daqui temos 2 casos
+    > o primeiro caso o processo filho tem valor 0 e portanto realizará uma adição (+2) ao valor do ponteiro shrd
+    > o segundo caso o processo filho tem um valor diferente de 0 e portanto realizará uma multiplicação (*4) ao valor do ponteiro shrd
+    
+  >> assim, temos 2 processos que trabalham com o valor de uma mesma variável.
+    > fim do código.
+  
+    
+  
