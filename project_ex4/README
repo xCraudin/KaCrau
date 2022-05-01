@@ -1,0 +1,25 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    >  $ gcc taylor_ex4 taylor_ex4.c
+    
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+    > $ ./taylor_ex4.c
+
+>>> Comprovando que os resultados foram obtidos corretamente.
+
+    > Primeiramente criamos uma constante T com o valor limite para nosso loop, no caso, 10.
+
+    > Em seguida criamos uma variável sum que receberá o valor dos números dividos pela variável i.
+
+    > Iniciamos um loop e declaramos a variável i. a condição de parada para o loop é ser menor ou igual à T.
+
+    > Durante o loop armazenamos os valores de 1/i à variável sum.
+
+    > Nesta parte paralelisamos cada operação com um diferente valor de i e somamos no final.
+
+    > Ao chegar ao final do loop printamos os resultados obtidos após a soma dos valores divididos por i.
+
+    > Resultado: 2,929
