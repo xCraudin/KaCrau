@@ -12,6 +12,6 @@ int main(void) {
   }
 
 	printf("A solução da Série de Taylor para Ln(10)\n");
-  printf("Ln(%d) = %.3f\n", T, sum);
+	printf("Ln(%d) = %.3f\n", T, sum);
   return 0;
 }
