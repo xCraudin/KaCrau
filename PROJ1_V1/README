@@ -1,0 +1,30 @@
+>>> Como compilar os execícios ?
+
+    > Utilizamos o gcc para compilar.
+    >  $ gcc PROJ_V1_pthread.c
+    >  $ gcc PROJ_V1_serial.c
+>>> Como executar o programa ?
+    
+    > Crie um arquivo .bin para os exercícios e execute o arquivo.
+    > $ ./PROJ1_V1_pthread.c
+    > $ ./PROJ1_V1_serial.c
+
+>>> Comprovando que os resultados foram obtidos corretamente.
+    
+    > Primeiramente inicializamos as variáveis e funções que utilizaremos.
+
+    > Em seguida, na main, criamos uma variável para calcular o tempo de execução do código.
+
+    > Criamos as variáveis que utilizaremos para manipular as threads.
+
+    > Após alocar o espaço na memória, o usuário irá definir quantas threads quer usar na paralelização do código.
+
+    > Assim, as threads são criadas e a função Taylor é chamada.
+
+  >> Na função Taylor, criamos os parametros para paralelizar o exc.
+
+  >> Utilizando o número de elementos na série de Taylor dividido pelo número de threads, temos a série de taylor particionada e pronta para ser resolvida.
+
+  >> Em seguida entramos num loop que irá somar todos os valores da série de Taylor.
+
+  >> Por fim o código printa o tempo de execução e compara com o tempo serial, assim, retornando o speedup.
