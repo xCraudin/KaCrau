@@ -11,6 +11,5 @@ int main(void)
   }
 
   printf("Resultado: %.2f\n", sum);
-  
   return 0;
 }
