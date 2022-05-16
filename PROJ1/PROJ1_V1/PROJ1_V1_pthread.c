@@ -12,9 +12,6 @@ double sum = 0.0;
 
 int main(int argc, char* argv[])
 {
-	clock_t t;
-  t = clock();
-	
 	long thread;
   pthread_t* thread_handles;
 
@@ -36,11 +33,6 @@ int main(int argc, char* argv[])
 	printf("ln(%d) = %.3f\n", T, sum);
 	free(thread_handles);
 	
-	t = clock() - t;
-
-  printf("Tempo de execução com 2 threads em paralelo: %lf", ((double)t) / ((CLOCKS_PER_SEC / 1000)));
-  float spdup = (0.422/t);
-  printf("\n O speedup é de: %f",spdup);
   return 0;
  }
 
