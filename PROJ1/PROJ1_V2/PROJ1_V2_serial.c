@@ -3,7 +3,7 @@
 int main(void)
 {
   double sum = 0;
-	long int T = 10000000000;
+	long int T = 1000000000;
 	
   for (long int i = 1; i <= T; i++)
   {

@@ -4,23 +4,7 @@
 
 long int T = 1000000000;
 
-void Taylor(double* global_result_p);
-
-int main(int argc, char *argv[])
-{
-  double global_result = 0.0;
-  int thread_count;
-
-  thread_count = strtol(argv[1], NULL, 10);
-  # pragma omp parallel num_threads (thread_count)
-  Taylor(&global_result);
-
-  printf("Resultado: %f\n", global_result);
-	
-  return 0;
-};
-
-void Taylor(double* global_result_p)
+double Taylor()
 {
   long int my_rank = omp_get_thread_num();
   int thread_count = omp_get_num_threads();
@@ -36,9 +20,21 @@ void Taylor(double* global_result_p)
     sum += 1 / i;
   }
 
-  # pragma omp critical
-  *global_result_p += sum;
-
   printf("Thread %ld => Resultado: %.4f\n", my_rank, sum);
 
+	return sum;
 }
+
+int main(int argc, char *argv[])
+{
+  double global_result_p = 0.0;
+  int thread_count;
+
+	long int my_rank = omp_get_thread_num();
+	
+  thread_count = strtol(argv[1], NULL, 10);
+#	pragma omp parallel num_threads(thread_count)\
+		reduction(+: global_result_p)
+	global_result_p += Taylor();
+}
+
